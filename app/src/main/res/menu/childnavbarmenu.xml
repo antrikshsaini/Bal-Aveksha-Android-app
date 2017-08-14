@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+
+        ></item>
+
+
+    <item android:id="@+id/account"
+        android:title="Profile"
+        android:icon="@mipmap/ic_person_black_24dp"
+        ></item>
+
+    <item android:id="@+id/chatSession"
+        android:title="Chat/Session"
+        android:icon="@drawable/ic_voice_chat_black_24dp"
+        ></item>
+    <item android:id="@+id/diagnosis"
+        android:title="Diagnosis"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        ></item>
+
+    <item android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_info_black_24dp"
+        ></item>
+
+    <item android:id="@+id/Faqs"
+        android:title="FAQs"></item>
+
+    <item android:id="@+id/logout"
+        android:title="Logout"></item>
+
+
+</menu>

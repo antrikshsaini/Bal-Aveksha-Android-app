@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/register"
+
+    tools:context="com.example.admin.balaveksha.RegisterActivity">
+
+
+
+    <include layout="@layout/child_actionbarhide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+           >
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+
+
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/editFName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="First Name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:inputType="text" />
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/editLName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Last Name"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:inputType="text" />
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email-Id"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:inputType="text" />
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/editUName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:inputType="text" />
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="20dp"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/editPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    tools:inputType="text" />
+
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <!--
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="First Name"
+                android:ems="14"
+                android:layout_marginLeft="33dp"
+                
+                android:id="@+id/editFName"
+                android:layout_marginTop="30dp"
+
+                ></EditText>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Last Name"
+                android:ems="14"
+                android:layout_marginLeft="35dp"
+
+                android:id="@+id/editLName"
+                android:layout_marginTop="25dp"
+
+                ></EditText>
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="25dp"
+                android:hint="Email-ID"
+                android:ems="14"
+                />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Username"
+                android:ems="14"
+                android:layout_marginLeft="35dp"
+
+                android:id="@+id/editUName"
+                android:layout_marginTop="25dp"
+
+                ></EditText>
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="35dp"
+                android:ems="14"
+                android:hint="Password"
+                />
+-->
+           <!-- <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dob"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:ems="14"
+                android:inputType="date"
+                android:hint="D.O.B"
+                />
+
+           <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/radiogroup"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="20dp">
+
+                <RadioButton
+                    android:text="Male"
+                    android:id="@+id/radioMale"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:onClick="radioButtonClicked"
+                    android:textSize="16dp"
+                    android:textStyle="normal"
+                    />
+                <RadioButton
+                    android:text="Female"
+                    android:id="@+id/radioFemale"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:onClick="radioButtonClicked"
+                    android:textSize="16dp"
+                    />
+            />
+
+            </RadioGroup>
+
+            -->
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTER"
+                android:id="@+id/register"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="35dp"
+                android:onClick="transferToRegister"
+                android:textStyle="normal"
+                android:background="#dc534c"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#ffffff"
+                />
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+    <!--
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_alignBaseline="@+id/editPassword"
+        android:layout_alignBottom="@+id/editPassword"
+        android:layout_alignLeft="@+id/email"
+        android:layout_alignStart="@+id/email" />
+
+    <Button
+        android:text="Register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/editDOB"
+        android:layout_alignStart="@+id/editDOB" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_alignBottom="@+id/problem"
+        android:layout_alignLeft="@+id/editDOB"
+        android:layout_alignStart="@+id/editDOB"
+        android:layout_alignRight="@+id/editDOB"
+        android:layout_alignEnd="@+id/editDOB" />
+
+    <TextView
+        android:text="First Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FName"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:id="@+id/editFName"
+        android:layout_alignBaseline="@+id/FName"
+        android:layout_alignBottom="@+id/FName"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editLName"
+        android:layout_below="@+id/editFName"
+        android:layout_alignLeft="@+id/editFName"
+        android:layout_alignStart="@+id/editFName" />
+
+    <TextView
+        android:text="Last Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/LName"
+        android:layout_alignBaseline="@+id/editLName"
+        android:layout_alignBottom="@+id/editLName"
+        android:layout_alignLeft="@+id/FName"
+        android:layout_alignStart="@+id/FName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editEmail"
+        android:layout_below="@+id/editLName"
+        android:layout_alignLeft="@+id/editLName"
+        android:layout_alignStart="@+id/editLName" />
+
+    <TextView
+        android:text="E-Mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_alignBaseline="@+id/editEmail"
+        android:layout_alignBottom="@+id/editEmail"
+        android:layout_alignLeft="@+id/LName"
+        android:layout_alignStart="@+id/LName" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editPassword"
+        android:layout_below="@+id/editEmail"
+        android:layout_alignLeft="@+id/editEmail"
+        android:layout_alignStart="@+id/editEmail" />
+
+    <TextView
+        android:text="D.O.B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/dob"
+        android:layout_below="@+id/editPassword"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editDOB"
+        android:layout_alignBaseline="@+id/dob"
+        android:layout_alignBottom="@+id/dob"
+        android:layout_alignLeft="@+id/editPassword"
+        android:layout_alignStart="@+id/editPassword" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/editDOB"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_above="@+id/spinner">
+        <RadioButton
+            android:text="Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:id="@+id/radioMale"
+            android:layout_below="@+id/editDOB"
+            android:layout_alignLeft="@+id/editDOB"
+            android:layout_alignStart="@+id/editDOB"
+            android:onClick="radioButtonClicked"
+            />
+        <RadioButton
+            android:text="Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:id="@+id/radioFemale"
+            android:layout_below="@+id/editDOB"
+            android:layout_alignLeft="@+id/editDOB"
+            android:layout_alignStart="@+id/editDOB"
+            android:onClick="radioButtonClicked"
+            />
+
+
+
+
+
+    </RadioGroup>
+
+    <TextView
+        android:text="Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:layout_below="@+id/editDOB"
+        android:layout_alignLeft="@+id/problem"
+        android:layout_alignStart="@+id/problem"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:text="Problem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/problem"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/gender"
+        android:layout_alignLeft="@+id/dob"
+        android:layout_alignStart="@+id/dob" />
+
+    <TextView
+        android:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/problem"
+        android:layout_alignLeft="@+id/problem"
+        android:layout_alignStart="@+id/problem" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editDescription"
+        android:layout_alignBaseline="@+id/description"
+        android:layout_alignBottom="@+id/description"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner" />
+
+
+-->
+
+</LinearLayout>
